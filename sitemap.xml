@@ -583,6 +583,12 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
+<loc>http://gokeng.dev/news/</loc>
+<priority>0.5</priority>
+<lastmod>2017-09-23</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
 <loc>http://gokeng.dev/product/product.php?lang=en&amp;class2=57</loc>
 <priority>0.5</priority>
 <lastmod>2017-09-23</lastmod>
@@ -595,13 +601,13 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://gokeng.dev/product/product.php?lang=en&amp;class2=56</loc>
+<loc>http://gokeng.dev/about/</loc>
 <priority>0.5</priority>
 <lastmod>2017-09-23</lastmod>
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://gokeng.dev/news/</loc>
+<loc>http://gokeng.dev/product/product.php?lang=en&amp;class2=56</loc>
 <priority>0.5</priority>
 <lastmod>2017-09-23</lastmod>
 <changefreq>weekly</changefreq>
@@ -613,7 +619,7 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://gokeng.dev/about/</loc>
+<loc>http://gokeng.dev/contact/</loc>
 <priority>0.5</priority>
 <lastmod>2017-09-23</lastmod>
 <changefreq>weekly</changefreq>
@@ -655,7 +661,7 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://gokeng.dev/about/show.php?lang=en&amp;id=48</loc>
+<loc>http://gokeng.dev/contact/show.php?lang=en&amp;id=48</loc>
 <priority>0.5</priority>
 <lastmod>2017-09-23</lastmod>
 <changefreq>weekly</changefreq>
