@@ -11,7 +11,7 @@ $cache = array (
     'type' => '2',
     'access' => '0',
     'wr_ok' => '0',
-    'class1' => '0',
+    'class1' => '44',
     'class2' => '0',
     'class3' => '0',
     'module' => '3',
@@ -65,7 +65,7 @@ $cache = array (
   array (
     'id' => '161',
     'name' => 'Product color:',
-    'options' => '$|$green$|$gray$|$black$|$yellow$|$Ebony',
+    'options' => 'green$|$gray$|$black$|$yellow$|$Ebony$|$$|$GK001$|$GK002',
     'description' => '',
     'no_order' => '4',
     'type' => '4',
@@ -79,12 +79,14 @@ $cache = array (
     'wr_oks' => '0',
     'list' => 
     array (
-      0 => '',
-      1 => 'green',
-      2 => 'gray',
-      3 => 'black',
-      4 => 'yellow',
-      5 => 'Ebony',
+      0 => 'green',
+      1 => 'gray',
+      2 => 'black',
+      3 => 'yellow',
+      4 => 'Ebony',
+      5 => '',
+      6 => 'GK001',
+      7 => 'GK002',
     ),
   ),
   162 => 

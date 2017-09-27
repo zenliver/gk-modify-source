@@ -55,6 +55,7 @@ print_r("\$lang_home:".$lang_home);
 echo <<<EOT
 -->
 				</div>
+                <div class="header-tel fr"><a href="http://www.gokeng.cn/" target="_blank">中文版</a></div>
 				<div class="clear"></div>
 			</div>
 		</div>

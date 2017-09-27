@@ -161,11 +161,12 @@ EOT;
 dump($product[$val[para]]);
 $str=explode("|",$product[$val[para]]);
 for($i4=0;$i4<count($str);$i4++){
+$product_color_name = str_replace('GK','GK-',$str[$i4]);
 echo <<<EOT
 -->
-			<span>
-        <p><i class="{$str[$i4]}"></i></p>
-        <p>{$str[$i4]}</p>
+	  <span>
+        <p><i class="{$product_color_name}"></i></p>
+        <p>{$product_color_name}</p>
       </span>
 <!--
 EOT;

@@ -1371,3 +1371,69 @@ span.download_list_desc_time {
 .showdownload_pwd_input_form input {
     padding: 5px 10px;
 }
+
+/*20170926修改 by zenliver*/
+
+/*顶部新增中文版链接*/
+.header-tel a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+/*产品详情页色板图片*/
+.product-detail-img .color span i {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-detail-img .color span i.GK-001 {
+    background-image: url('./../products_color_img/GK-001.jpg');
+}
+.product-detail-img .color span i.GK-002 {
+    background-image: url('./../products_color_img/GK-002.jpg');
+}
+.product-detail-img .color span i.GK-003 {
+    background-image: url('./../products_color_img/GK-003.jpg');
+}
+.product-detail-img .color span i.GK-004 {
+    background-image: url('./../products_color_img/GK-004.jpg');
+}
+.product-detail-img .color span i.GK-005 {
+    background-image: url('./../products_color_img/GK-005.jpg');
+}
+.product-detail-img .color span i.GK-006 {
+    background-image: url('./../products_color_img/GK-006.jpg');
+}
+.product-detail-img .color span i.GK-007 {
+    background-image: url('./../products_color_img/GK-007.jpg');
+}
+.product-detail-img .color span i.GK-008 {
+    background-image: url('./../products_color_img/GK-008.jpg');
+}
+.product-detail-img .color span i.GK-009 {
+    background-image: url('./../products_color_img/GK-009.jpg');
+}
+.product-detail-img .color span i.GK-010 {
+    background-image: url('./../products_color_img/GK-010.jpg');
+}
+.product-detail-img .color span i.GK-011 {
+    background-image: url('./../products_color_img/GK-011.jpg');
+}
+.product-detail-img .color span i.GK-012 {
+    background-image: url('./../products_color_img/GK-012.jpg');
+}
+.product-detail-img .color span i.GK-013 {
+    background-image: url('./../products_color_img/GK-013.jpg');
+}
+.product-detail-img .color span i.GK-014 {
+    background-image: url('./../products_color_img/GK-014.jpg');
+}
+.product-detail-img .color span i.GK-015 {
+    background-image: url('./../products_color_img/GK-015.jpg');
+}
+.product-detail-img .color span i.GK-016 {
+    background-image: url('./../products_color_img/GK-016.jpg');
+}
+.product-detail-img .color span i.GK-017 {
+    background-image: url('./../products_color_img/GK-017.jpg');
+}
