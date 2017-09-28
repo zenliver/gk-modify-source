@@ -14,21 +14,21 @@ echo <<<EOT
 EOT;
 if(count($link_img)>0){
 echo <<<EOT
--->	
+-->
 		<ul class="icon">
 <!--
 EOT;
 foreach($link_img as $key=>$val){
 echo <<<EOT
--->		
+-->
 			<li><a href="{$val[weburl]}" title="{$val[webname]}"><img src="{$val[weblogo]}" alt="{$val[webname]}"></a> </li>
 
 <!--
 EOT;
 }
 echo <<<EOT
--->			
-			
+-->
+
 			<div class="clear"></div>
 		</ul>
 <!--
@@ -41,21 +41,21 @@ echo <<<EOT
 EOT;
 if(count($link_text)>0){
 echo <<<EOT
--->	
+-->
 		<ul class="icon">
 <!--
 EOT;
 foreach($link_text as $key=>$val){
 echo <<<EOT
--->		
+-->
 			<li><a href="{$val[weburl]}" title="{$val[info]}">{$val[webname]}</a> </li>
 
 <!--
 EOT;
 }
 echo <<<EOT
--->			
-			
+-->
+
 			<div class="clear"></div>
 		</ul>
 <!--
@@ -67,7 +67,7 @@ echo <<<EOT
 
 
 
-	
+
 		<ul class="foot-nav">
 <!--
 EOT;
@@ -76,11 +76,11 @@ foreach($navfoot_list as $key=>$val){
 $i0++;
 //一级循环
 echo <<<EOT
--->		
+-->
 			<li>
 				<div class="li-t">{$val[name]}</div>
 				<div class="blank-10"></div>
-					
+
 				<div class="li-c">
 <!--
 EOT;
@@ -92,20 +92,20 @@ if($i==$k+4){$k = $i;$qq = "<div>";}
 $qz = $i%4==0||$i==$c?"</div>":'';
 //二级循环
 echo <<<EOT
--->	
+-->
 					{$qq}
 						<p><a href="{$val2[url]}" title="{$val2[name]}">{$val2[name]}</a></p>
-					{$qz}						
+					{$qz}
 <!--
 EOT;
 if($i>=8)break;
 }
 //二级循环
 echo <<<EOT
--->				
-						<div class="clear"></div>		
+-->
+						<div class="clear"></div>
 				</div>
-			
+
 			</li>
 
 <!--
@@ -114,10 +114,10 @@ if($i0>=8)break;
 }
 //一级循环
 echo <<<EOT
--->			
+-->
 			<div class="clear"></div>
 		</ul>
-		
+
 		<div class="blank-10"></div>
 	</div>
 <!--foot end-->
@@ -198,6 +198,10 @@ echo <<<EOT
 <script src="{$img_url}js/slder.js"></script>
 <script src="{$img_url}js/common.js"></script>
 <!--js end-->
+
+<!-- 统计代码 -->
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19299419.js"></script>
+<noscript><a href="//www.51.la/?19299419" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19299419.asp" style="border:none" /></a></noscript>
 
 
 </body>
