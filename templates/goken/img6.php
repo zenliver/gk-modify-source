@@ -34,7 +34,7 @@ echo <<<EOT
 		<div class="layout_default">
 			<p class="info"><span class="date"></span> <span class="author"></span></p>
 			<div class="image_container">
-				<a href="{$val[imgurl]}" rel="lightbox[ostec]">
+				<a href="{$val[url]}">
 					<img src="{$val0[imgurl]}" alt="{$val[title]}">
 					<span class="trant"></span>
 					<div class="meta">{$val[title]}</div>

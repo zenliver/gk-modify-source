@@ -165,7 +165,10 @@ $product_color_name = str_replace('GK','GK-',$str[$i4]);
 echo <<<EOT
 -->
 	  <span>
-        <p><i class="{$product_color_name}"></i></p>
+        <p>
+            <i class="{$product_color_name}"></i>
+            <i class="{$product_color_name} product_color_img_big"></i>
+        </p>
         <p>{$product_color_name}</p>
       </span>
 <!--

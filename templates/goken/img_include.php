@@ -8,7 +8,7 @@ $i = 0;
 foreach($nav_list2[$class1] as $key=>$val){
 $navnow=$classnow==$val[id]?'class="hover trant"':'';
 $i++;
-if ($i <= 5) {
+if ($i) {
 echo <<<EOT
 -->
     <a href="{$val[url]}" title="{$val[name]}" {$navnow}>{$val[name]}</a>

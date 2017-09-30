@@ -1437,3 +1437,23 @@ span.download_list_desc_time {
 .product-detail-img .color span i.GK-017 {
     background-image: url('./../products_color_img/GK-017.jpg');
 }
+
+/*20170928修改 by zenliver*/
+
+/*鼠标划过色板图片显示大图*/
+.product-detail-img .color span i.product_color_img_big {
+    position: absolute;
+    left: 0;
+    bottom: 110%;
+    width: 180px;
+    height: 180px;
+    display: none;
+}
+
+.product-detail-img .color span > p {
+    position: relative;
+}
+
+.product-detail-img .color span p:hover i.product_color_img_big {
+    display: block;
+}

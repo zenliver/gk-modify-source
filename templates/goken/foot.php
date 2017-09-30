@@ -200,8 +200,10 @@ echo <<<EOT
 <!--js end-->
 
 <!-- 统计代码 -->
-<script language="javascript" type="text/javascript" src="//js.users.51.la/19299419.js"></script>
-<noscript><a href="//www.51.la/?19299419" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19299419.asp" style="border:none" /></a></noscript>
+<div style="display:none;">
+    <script language="javascript" type="text/javascript" src="//js.users.51.la/19299419.js"></script>
+    <noscript><a href="//www.51.la/?19299419" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19299419.asp" style="border:none" /></a></noscript>
+</div>
 
 
 </body>
